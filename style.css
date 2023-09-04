@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilização header */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(4, 86, 148);
+}
+
+.div-1{
+   
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+.div-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+#lista-1{
+   display: flex; 
+   gap: 25px;
+   list-style-type: none;
+   color: white;
+   padding-right: 10px;
+}
+#lista-2{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+.img{
+    background-color: white;
+}
+
+/* Estilização main */
+.secao-1{
+    border: 3px solid rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+}
+
+.div-secao{
+    border: 1px solid black;
+}
+
+.watch-fifa{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imagem1.webp");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+}
+
+.watch-fifa button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+}
+.watch-fifa button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.copa{
+    flex-basis: 75%;
+    display: flex;
+    align-items: end;
+    /* justify-content: center; */
+    text-align: start;
+    font-size: 14px;
+    color: white;
+    background-image: url(tacamundi.webp);
+    background-position: center center;
+}
+copa img::after{
+    content: "";
+    display: block;
+    background: black;
+    border-bottom: 5px solid green;
+    box-shadow: 2px 2px 10px black;
+}
+.b{
+    color: rgb(241, 241, 241);
+    background-color: #00000080;
+    /* font-weight: bolder; */
+}
+.a1{
+    background-color: #00000080;
+    font-weight: bolder;
+}
+span{
+    color: rgb(244, 0, 0);
+}
+
+/* Formatação section 2 */
+.cards{
+    display: flex;
+    gap: 25px;
+    margin: 15px;
+    
+    
+    
+}
+h3{
+    font-size:medium;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font: inherit;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    
+}
+
+.card{
+    border: 3px solid #e2ececc2;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30x;
+    gap: 20px;
+    margin-left: 30px;
+    
+
+}
+.imagem{
+    border-radius: 30px;
+    width: 400px;
+
+    
+    
+}
+.imagem:hover:hover{
+    transform: scale(1.1);
+}
+main{
+    background-color: #e2ececc2;
+}
+h3{
+    margin-left: 40px;
+    padding-top: 40px;
+
+}
+.secao-3{
+    background-color: rgb(102, 102, 192);
+}
+.card3{
+    border: 3px solid #e2ececc2;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30x;
+    gap: 20px;
+    margin-left: 30px;
+    background-color: rgb(102, 102, 192);
+    border: rgb(102, 102, 192);;
+    color: white;
+}
+p{
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.class1{
+    justify-content: right;
+}
+.class2{
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: 10px
+    ;
+}
+
+
+    
+
+    
